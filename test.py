@@ -370,3 +370,4 @@ class A:
                 print(ord(i),end='')
 obj=A()
 
+print("Hima")
