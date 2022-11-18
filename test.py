@@ -353,21 +353,54 @@
 #     z.sort()
 #print(z)
 
+#
+# class A:
+#     def __init__(self):
+#         self.x = 'A1B2c3'
+#         for i in self.x:
+#             if i.isdigit():
+#                 print(i,end='')
+#         print()
+#         for i in self.x:
+#             if i.isalpha():
+#                 print(i,end='')
+#         print()
+#         for i in self.x:
+#             if i.isalpha():
+#                 print(ord(i),end='')
+# obj=A()
 
-class A:
-    def __init__(self):
-        self.x = 'A1B2c3'
-        for i in self.x:
-            if i.isdigit():
-                print(i,end='')
-        print()
-        for i in self.x:
-            if i.isalpha():
-                print(i,end='')
-        print()
-        for i in self.x:
-            if i.isalpha():
-                print(ord(i),end='')
-obj=A()
+# student_data={"Name":"Sekhar",
+#               "mobile no":9538682164,
+#               "landline":9912592513,
+#               "conatct":7349345009
+#               }
+# print(student_data.get("landline"))
+# print(student_data.get("landline",9912592513))
+# print(student_data.get("Name","Ram"))
+# print(student_data.pop("landline"))
+# print((student_data.pop("contact")))
+# print(student_data.popitem())
+# print(student_data.popitem())
+# print(student_data.keys())
+# for key in student_data.keys():
+#     print(key)
 
-print("Hima")
+# for value in student_data.values():
+#     print(value)
+#
+# for item in student_data.items():
+#     print(item)
+
+student_data={"Name":"Sekhar",
+              "mobile no":9538682164
+              }
+dict={"landline":9912592513,
+      "conatct":7349345009
+      }
+# d=student_data.copy()
+# print(d)
+# student_data_cp=student_data.copy()
+# print(student_data_cp)
+dict.update(student_data)
+print(dict)
