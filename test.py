@@ -392,15 +392,25 @@
 # for item in student_data.items():
 #     print(item)
 
-student_data={"Name":"Sekhar",
-              "mobile no":9538682164
-              }
-dict={"landline":9912592513,
-      "conatct":7349345009
-      }
-# d=student_data.copy()
-# print(d)
-# student_data_cp=student_data.copy()
-# print(student_data_cp)
-dict.update(student_data)
-print(dict)
+# student_data={"Name":"Sekhar",
+#               "mobile no":9538682164
+#               }
+# dict={"landline":9912592513,
+#       "conatct":7349345009
+#       }
+# # d=student_data.copy()
+# # print(d)
+# # student_data_cp=student_data.copy()
+# # print(student_data_cp)
+# dict.update(student_data)
+# print(dict)
+def fact(n):
+    fact=1
+    while(n!=0):
+        fact=fact*n
+        n=n-1
+    return fact
+
+x=(eval(input("enter the number:")))
+val=fact(x)
+print("factorial of {} is : {}".format(x,val))
