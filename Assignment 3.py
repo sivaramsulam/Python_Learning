@@ -19,9 +19,9 @@
 # print(~a)
 
 #
-x=[1,2,5]
-print(x[:-1:])
-print(x[-3:-1])
+# x=[1,2,5]
+# print(x[:-1:])
+# print(x[-3:-1])
 
 # list=[1,2,3,4,5,6,7]
 # print(list[::-1])
@@ -56,5 +56,5 @@ print(x[-3:-1])
 # else:
 #     print(False)
 
-
-
+print("Sekhar")
+print("Saroja")
