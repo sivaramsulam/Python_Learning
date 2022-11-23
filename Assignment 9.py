@@ -140,5 +140,7 @@
 
 
 # write a function to sort the list without using sort fun     hint: we can use sorted fun
-x=[1,4,5,2,37,79,7869,86,357]
-print(sorted(x))
+# x=[1,4,5,2,37,79,7869,86,357]
+# print(sorted(x))
+
+print("sekhar")
